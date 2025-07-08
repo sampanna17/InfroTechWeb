@@ -2,6 +2,7 @@ import service1 from "../assets/service1.png";
 import service2 from "../assets/service2.png";
 import service3 from "../assets/service3.png";
 import service4 from "../assets/service4.png";
+import { ChevronRight } from "lucide-react";
 
 const Service = () => {
     const services = [
@@ -57,15 +58,19 @@ const Service = () => {
                             {services.map((service, idx) => (
                                 <div
                                     key={idx}
-                                    className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 relative overflow-hidden "
+                                    className="group bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all  relative overflow-hidden"
                                 >
-                                    {/* Semi-circle decorations */}
-                                    <div className="absolute -bottom-22 -right-22 w-40 h-40 rounded-full" style={{ backgroundColor: "#e6eef5" }}></div>
+                                    {/* Animated Semi-circle decoration (only 1st) */}
                                     <div
-                                        className="absolute -bottom-16 -right-16 w-30 h-30 rounded-full"
-                                        style={{ backgroundColor: "#d0dfec" }}
+                                        className="absolute -bottom-16 -right-16 w-32 h-32 rounded-full bg-[#e6eef5] transition-all duration-1000 ease-in-out group-hover:scale-1000 group-hover:bg-[#0959a2]"
                                     ></div>
 
+                                    {/* Second circle remains static */}
+                                    <div
+                                        className="absolute -bottom-12 -right-12 w-24 h-24 rounded-full bg-[#d0dfec] transition-all duration-1000 ease-in-out  group-hover:bg-[#0959a2]"
+                                    ></div>
+
+                                    {/* Card Content */}
                                     <div className="relative z-10">
                                         <div className="mb-4 flex items-center">
                                             <div className="h-12 w-12 rounded-lg overflow-hidden">
@@ -76,16 +81,18 @@ const Service = () => {
                                                 />
                                             </div>
                                         </div>
-                                        <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.title}</h3>
-                                        <p className="text-gray-600 text-base mb-4">{service.desc}</p>
-                                        <button className="text-[#0959a2] text-sm font-medium hover:text-blue-700 flex items-center">
+                                        <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-white transition-all duration-1000 ease-in-out ">{service.title}</h3>
+                                        <p className="text-gray-600 text-base mb-4 group-hover:text-white transition-all duration-1000 ease-in-out">{service.desc}</p>
+                                        <button className="text-[#0959a2] text-sm font-medium group-hover:text-white flex items-center transition-all duration-1000 ease-in-out">
                                             Learn More
-
+                                            <ChevronRight size={16} className="ml-2" />
                                         </button>
                                     </div>
                                 </div>
                             ))}
                         </div>
+
+
                     </div>
                 </div>
             </div>
