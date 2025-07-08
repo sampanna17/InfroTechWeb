@@ -1,6 +1,6 @@
 # Paradise IT Solutions - Demo Website
 
-![Paradise IT Solutions Banner](https://via.placeholder.com/1200x400/070b3b/ffffff?text=Paradise+IT+Solutions)
+![Paradise IT Solutions Banner](https://drive.google.com/file/d/1a3j1W_y5MtSgLegr8oSOTEVD5PbzUUi8/view?usp=sharing)
 
 A modern, responsive demo website showcasing the services and portfolio of Paradise IT Solutions, a leading technology company specializing in web development, IT consulting, and digital transformation services.
 
