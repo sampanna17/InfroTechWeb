@@ -1,6 +1,8 @@
 # Paradise IT Solutions - Demo Website
 
-![Paradise IT Solutions Banner](https://drive.google.com/file/d/1a3j1W_y5MtSgLegr8oSOTEVD5PbzUUi8/view?usp=sharing)
+<div align="center">
+  <img src="https://github.com/sampanna17/InfroTechWeb/raw/main/public/CompanyLogo.png" alt="ParadiseInfo Logo" width="200">
+</div>
 
 A modern, responsive demo website showcasing the services and portfolio of Paradise IT Solutions, a leading technology company specializing in web development, IT consulting, and digital transformation services.
 
