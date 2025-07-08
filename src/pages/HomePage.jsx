@@ -2,6 +2,7 @@ import AboutSection from '../components/AboutSection';
 import BlogSection from '../components/BlogSection';
 import Feedback from '../components/Feedback';
 import Footer from '../components/Footer';
+import GoToTop from '../components/GoToTop';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Nav'; 
 import Project from '../components/Project';
@@ -12,6 +13,7 @@ import WorkingProcess from '../components/WorkingProcess';
 const Homepage = () => {
   return (
     <div className="min-h-screen">
+      <GoToTop />
       <Navbar />
       <HeroSection/>
       <WorkingProcess />
