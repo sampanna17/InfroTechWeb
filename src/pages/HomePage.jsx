@@ -6,6 +6,7 @@ import GoToTop from '../components/GoToTop';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Nav'; 
 import Project from '../components/Project';
+import Service from '../components/Service';
 import StatisticsSection from '../components/StatisticsSection';
 import WhyUsSection from '../components/WhyUsSection';
 import WorkingProcess from '../components/WorkingProcess';
@@ -17,8 +18,9 @@ const Homepage = () => {
       <Navbar />
       <HeroSection/>
       <WorkingProcess />
-      <Feedback />
       <AboutSection />
+      <Service />
+      <Feedback />
       <StatisticsSection />
       <Project />
       <WhyUsSection />
