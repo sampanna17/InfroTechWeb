@@ -2,7 +2,8 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import Raj from "../assets/Raj.jpg";
 import Rijal from "../assets/Rijal.jpg";
-import Kandel from "../assets/Kandel.jpg";
+import Kandel from '../assets/kandel.jpg';
+
 import Rajput from "../assets/Rajput.jpg";
 
 export default function Feedback() {
