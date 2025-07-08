@@ -14,10 +14,10 @@ export default function HeroSection() {
 
             {/* Main Heading */}
             <div className="space-y-2">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl font-semibold text-gray-900 leading-tight">
                 Paradise IT Solution
               </h1>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-semibold leading-tight">
                  <span className="text-blue-900"> Consider </span> IT Solved...!!!
               </h2>
             </div>
